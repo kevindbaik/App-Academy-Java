@@ -6,6 +6,7 @@ public class Variables { // a class
     int petCount = dogCount + catCount;
     System.out.println(petCount);
 
+    // DATA TYPES
     byte by = 56;
     short sh = 1024;
     int in = 314;
@@ -47,6 +48,13 @@ public class Variables { // a class
     // i = f;   // compiler error: cannot convert from float to int
     // f = d;   // compiler error: cannot convert from double to float
     // lng = d; // compiler error: cannot convert from double to long
+
+    char a = 'a';
+    char x = 'X';
+    char one = '1'; // the character '1', not the value 1!
+    char singleQuote = '\''; // single quote
+    char newLine = '\n';     // the newline character (added by pressing Enter), not the letter n
+    char escape = '\\';      // the escape character must escape itself
   }
 
 }
