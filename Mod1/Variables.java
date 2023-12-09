@@ -55,16 +55,6 @@ public class Variables { // a class
     char singleQuote = '\''; // single quote
     char newLine = '\n';     // the newline character (added by pressing Enter), not the letter n
     char escape = '\\';      // the escape character must escape itself
-
-    /*
-        public class Strings {
-
-        public static void main(String[] args) {
-            System.out.println("hello strings");
-        }
-    }
-  System.out.println("hello strings");
-     */
   }
 
 }
